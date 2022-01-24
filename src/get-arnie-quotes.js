@@ -24,7 +24,7 @@ const httpGetArnieQuoteUrl = async (url) => {
  * @param {Object} urlResp HTTP GET response for an Arnie Quote URL.
  * @returns {Promise<Object>} Promise containing the parsed Arnie Quote message object.
  * 
- * @throws Will throw if parsing the HTTP respone fails.
+ * @throws Will throw if parsing the HTTP response fails.
  */
 const parseArnieQuoteHttpResp = async (urlResp) => {
   try {
